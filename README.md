@@ -59,14 +59,14 @@ Write behavior: Upsert (based on Alter Row rules)
 
 ---
 
-🧪 Debug & Run
+# Debug & Run
 Use Debug mode in the data flow canvas to verify logic.
 
 Use the Add Trigger > Trigger Now option to run the pipeline manually.
 
 ---
 
-📊 Monitor
+# Monitor
 Go to the Monitor section in Synapse Studio.
 
 Check the status of the pipeline in Pipeline Runs.
@@ -80,7 +80,7 @@ Run a query on the DimProduct table to view loaded data:
 
 SELECT TOP 100 * FROM dbo.DimProduct;
 
-🧹 Clean Up
+# Clean Up
 After completing the lab or deployment, delete unnecessary Azure resources to avoid charges:
 
 Synapse workspace
@@ -91,7 +91,7 @@ Storage containers (if temporary)
 
     ---
     
-📎 Notes
+# Notes
 This pipeline implements a Type 1 SCD strategy (overwrite existing records).
 
 Uses Azure Synapse Data Flows, not Mapping Data Flows in ADF.

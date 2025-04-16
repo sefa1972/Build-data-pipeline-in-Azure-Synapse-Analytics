@@ -89,14 +89,6 @@ Dedicated SQL pool
 
 Storage containers (if temporary)
 
-📁 Folder Structure
-/product-pipeline
-├── README.md
-├── pipeline-definition.json (optional export)
-├── dataflow-definition.json (optional export)
-└── sample-data/
-    └── products.txt
-    
     ---
     
 📎 Notes

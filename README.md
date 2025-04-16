@@ -25,23 +25,6 @@ The objective is to:
 
 ---
 
-## DimProduct Table Schema
-
-```sql
-CREATE TABLE [dbo].[DimProduct](
-    [ProductKey] [int] IDENTITY NOT NULL,
-      NULL,
-      NULL,
-      NULL,
-      NULL,
-    [Listprice] [MONEY] NULL,
-    [Discontinued] [BIT] NULL)
-WITH
-(
-    DISTRIBUTION = HASH(ProductAltKey),
-    CLUSTERED COLUMNSTORE INDEX
-);
-
 🔄 Pipeline Design
 Create a pipeline
 

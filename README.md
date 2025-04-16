@@ -100,3 +100,4 @@ Uses Azure Synapse Data Flows, not Mapping Data Flows in ADF.
 Sefa Öztürk
 IT Trainee | Azure Data Engineer in progress
 “Discipline from the Air Force, logic from Data.”
+📇 LinkedIn: https://www.linkedin.com/in/sefa-ozturk1972
